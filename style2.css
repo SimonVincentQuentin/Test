@@ -89,10 +89,6 @@ body{
 	padding: 10px 0px;	
 	}
 	
-	.menu li:hover .submenu{
-		display: block;
-		position: static;
-	}
 	
 	
 }
