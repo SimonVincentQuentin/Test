@@ -100,3 +100,17 @@ body{
 	
 }
 
+.mail {
+	display:block;
+	height:75%;
+	position:relative;
+	text-align: right;
+	top:20%;
+	right:5%;
+	
+	border-left-style: dashed;
+	border-left-color: #333;
+	border-left-width: medium;
+	
+}
+
