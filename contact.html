@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Contact</title>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="style2.css" type="text/css"/>
+	</head>
+
+	<body>
+	
+		<header>
+			<img src="" alt=""/>
+			<nav class="menu">
+				
+				<label for="menu-res" class="menu-res">Menu</label>
+				<input type="checkbox" id="menu-res" role="button">
+				
+				<ul>
+					<li class="accu"><a href="#">Accueil</a></li>
+				
+					<li class="cv"><a href="#">CV</a>
+						<ul class="submenu">
+							<li><a href="#">CV de Simon</a></li>
+							<li><a href="#">CV de Vincent</a></li>
+							<li><a href="#">CV de Quentin</a></li>
+						</ul>
+					</li>
+				
+					<li class="contact"><a href="#">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+		<form method="post" action="http://www.iut-fbleau.fr/sitebp/post.php" name="Authentification">
+        	Prenom : <br />
+        	<input type="text" name="Prenom" id="Prenom" /> <br />
+        	Nom : <br />
+        	<input type="text" name="Nom" id="Nom" /> <br />
+			Email : <br />
+        	<input type="email" name="Mail" id="Mail" /><br />
+			Message : <br />
+			<textarea cols="50" rows="4" name="comment"></textarea>
+        	<input type="submit" name="submit"/>
+			
+    </form>
+	
+	<aside>
+		Mail : <br> 
+		quentin.philippe@etu.u-pec.fr <br>
+		vincent.navales@etu.u-pec.fr <br>
+		simon.vasseur@etu.u-pec.fr <br>
+	<aside>
+		
+	</body>
+
+</html>
