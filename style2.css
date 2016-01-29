@@ -3,10 +3,13 @@ body{
 	padding: 0px;
 }
 
+
 .menu{
 	font-size:20px;
 	width: 100%;
 	background-color: #333;
+	position: fixed;
+	padding-top: 1px;
 }
 
 .menu ul{
@@ -21,6 +24,8 @@ body{
 .menu ul li{
 	float: left;
 	position: relative;
+	padding-right: 7%;
+	padding-left: 1%;
 }
 
 .menu ul::after{
@@ -40,55 +45,54 @@ body{
 	color:rgb(130, 230, 270);	
 }
 
-.menu  li:hover .submenu{
-	display: inline-block;
-	position: absolute;
-	top: 100%;
-	left: 0px;
-	padding: 0px;
-	z-index: 1000;
-}
-
-.submenu{
-	display: none;
-	color:rgb(130, 230, 270);
-}
-
-.submenu li{
-	border-bottom: 1px solid #CCC;
-}
-
-.submenu li a{
-	padding: 15px 30px;
-	font-size: 13px;
-	color:rgb(130, 230, 270);
-	width: 250px;
-}
-
 .menu ul li:hover a{
-	padding: 17px 30px;
+	padding: 20px 30px;
 	
 }
 
 .menu input[type=checkbox]{
 	display: none;
 }
+
 .menu-res{
 	display: none;
 }
 
-.submenu li:hover a{
-	color: #FFF;
+.menu ul li:hover{
+	border-bottom: 5px solid #FFF;
+	}
+	
+
+.menu input[type=checkbox]:checked ~ ul{
+	display:block;
+}
+
+@media screen and (max-width: 780px){
+	.menu-res{
+		display: block;
+		color: white;
+		background-color: #333;
+		text-align: center;
+		padding: 12px 0px;
+	}
+	.menu ul{
+		display: none;
+	}
+
+	.menu ul li, .menu ul li a{
+		width: 100%;
+		text-align: center;
+	}
+	
+	.menu ul li a, .menu ul li:hover a{
+	padding: 10px 0px;	
+	}
+	
+	.menu li:hover .submenu{
+		display: block;
+		position: static;
+	}
+	
 	
 }
 
-.cv:hover{
-	border-top: 3px solid #FFF;
-	}
-	
-.accu:hover{
-	border-top: 3px solid #FFF;
-	}
-
-.contact:hover{
-	border-top: 3px solid #FFF;
