@@ -59,6 +59,7 @@ dt{
 
 .menu ul li a {
 	padding: 20px 30px;
+	padding-left: 80px;
 	color:#ddd;	
 }
 
@@ -80,6 +81,7 @@ dt{
 	display:block;
 }
 
+
 .mail {
 	display:block;
 	height:75%;
@@ -96,7 +98,19 @@ dt{
 	border-left-width: medium;	
 }
 
-@media screen and (max-width: 780px){
+
+footer {
+	position: fixed;
+	bottom: 0px;
+	margin: 10px;
+}	
+
+footer img{
+	height: 50px;
+	width: 50px;
+}
+
+@media screen and (max-width: 850px){
 	.menu-res{
 		display: block;
 		color: white;
@@ -116,5 +130,5 @@ dt{
 	.menu ul li a, .menu ul li:hover a{
 	padding: 10px 0px;	
 	}
-		
+	
 }
