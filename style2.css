@@ -17,6 +17,7 @@ dt{
 .present{
     text-align:center;
     padding-top:10%;
+	font-family: Georgia, Serif;
 }
 
 .menu{
@@ -79,6 +80,22 @@ dt{
 	display:block;
 }
 
+.mail {
+	display:block;
+	height:75%;
+	float: right;
+	text-align: right;
+	top:20%;
+	right:5%;
+	margin-right: 20px;
+	padding-left: 10px;
+	font-weight: bold;
+	
+	border-left-style: dashed;
+	border-left-color: #333;
+	border-left-width: medium;	
+}
+
 @media screen and (max-width: 780px){
 	.menu-res{
 		display: block;
@@ -99,22 +116,5 @@ dt{
 	.menu ul li a, .menu ul li:hover a{
 	padding: 10px 0px;	
 	}
-	
-	
-	
+		
 }
-
-.mail {
-	display:block;
-	height:75%;
-	position:relative;
-	text-align: right;
-	top:20%;
-	right:5%;
-	
-	border-left-style: dashed;
-	border-left-color: #333;
-	border-left-width: medium;
-	
-}
-
