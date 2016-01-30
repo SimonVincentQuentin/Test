@@ -132,3 +132,34 @@ footer img{
 	}
 	
 }
+
+.bio {
+	width:25%;
+	height:25%;
+	position:absolute;
+	top:20%;
+	left:10%;
+	
+	
+}
+
+.bio .pic	{
+	height:100px;
+	width:;
+	position: absolute;
+	top:30%;
+	left:40%;
+}
+
+.langages	{
+	position: absolute;
+	top:20%;
+	left:50%;
+	height:25%;
+	width:25%;
+}
+
+.langages .lang{
+	width : 100px;
+	height : 100px;
+}
