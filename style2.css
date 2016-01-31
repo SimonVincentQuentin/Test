@@ -129,6 +129,14 @@ footer img{
 
 }
 
+bio .pic	{
+	height:100px;
+	width:;
+	position: absolute;
+	top:30%;
+	left:40%;
+}
+
 .bio .photocv{
 	float: right;
 	
