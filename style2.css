@@ -109,7 +109,6 @@ dt{
 footer {
 	width: 100%;
 	height: 50px;
-	border-top: 2px dashed grey;
 	position: fixed;
 	bottom: 0px;
 	margin: 10px;
