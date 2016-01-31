@@ -5,7 +5,7 @@ body{
 	background-repeat: repeat;
 }
 
-.maps{
+.map{
 	float: right;
 	margin: 20px;
 }
@@ -21,9 +21,9 @@ ul{
 .defil{
 	position: relative;
 	height:150px;
-	margin-right:20%;
 	top:25%;
 	left:40%;
+	margin-right:10%;
 }
 
 .present{
@@ -31,6 +31,18 @@ ul{
     padding-top:10%;
 	padding-right:40%;
 	padding-left:20%;
+	margin-left: 15%;
+}
+
+h4{
+	color: #300000;
+	margin: 0px;
+	padding: 0px;
+}
+
+#Prenom, #Nom, #Mail, #Message{
+	border: 1px solid grey;
+	border-radius: 2px;
 }
 
 body{
@@ -43,6 +55,7 @@ body{
 	background-color: #333;
 	position: fixed;
 	padding-top: 1px;
+	margin-top: 0px;
 	z-index: 1000;
 }
 
@@ -146,13 +159,6 @@ footer img{
 	width: 100px;
 }
 
-.bio .pic	{
-	height:100px;
-	width:;
-	position: absolute;
-	top:30%;
-	left:40%;
-}
 
 legend{
 	font-size:30px;
@@ -161,9 +167,9 @@ legend{
 }
 
 .langages{
-	position: absolute;
-	top:20%;
-	left:50%;
+	float: right;
+	margin-top:100px;
+	margin-right:200px;
 	height:25%;
 	width:25%;
 }
@@ -172,7 +178,6 @@ legend{
 	width : 100px;
 	height : 100px;
 }
-
 
 
 @media screen and (max-width: 850px){
@@ -193,7 +198,8 @@ legend{
 	}
 	
 	.menu ul li a, .menu ul li:hover a{
-	padding: 10px 0px;	
+	padding-top: 10px;
+	padding-right: 0px;
 	}
 	
 }
