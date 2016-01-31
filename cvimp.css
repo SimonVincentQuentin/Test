@@ -1,0 +1,20 @@
+.menu{
+	display: none;
+}
+
+.photocv{
+	height: 300px;
+	width: 300px; 
+}
+
+.langages{
+	display: none;
+}
+
+footer{
+	display: none;
+}
+
+.bio{
+	font-size: 18px;
+}
